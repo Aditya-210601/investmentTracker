@@ -77,6 +77,7 @@ body {
   color: #c2e9e0;
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
+  margin: 15px;
 }
 
 .buttonAlt {
@@ -103,6 +104,8 @@ button:hover {
   table-layout: fixed;
   border-spacing: 1rem;
   text-align: right;
+  background: radial-gradient(#303b37, #1a1f1d);
+
 }
 
 .result thead {
@@ -115,3 +118,4 @@ button:hover {
   font-size: 0.85rem;
   color: #c2e9e0;
 }
+

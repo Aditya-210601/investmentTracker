@@ -1,9 +1,11 @@
 
 const Report = (props) => {
-    
+
     return (
+        
         <div>
-            <table className="result">
+            
+            <table className="result" >
                 <thead>
                     <tr>
                         <td>Year</td>
@@ -26,7 +28,10 @@ const Report = (props) => {
                         ))
                     }
                 </tbody>
+                
+                    
             </table>
+
         </div>
     );
 };
