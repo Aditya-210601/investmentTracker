@@ -64,6 +64,7 @@ const Calculator = (props) => {
         setYS(0);
         setROI(0);
         setTime(0);
+        props.onSubmit([]);
     };
 
     function submitHandler(e){
@@ -80,6 +81,7 @@ const Calculator = (props) => {
             total_interest+=si;
 
             let jsonObject = {
+                "key":i,
                 "year":i,
                 "Total Saving":CS,
                 "Interest":si,
@@ -92,29 +94,25 @@ const Calculator = (props) => {
         props.onSubmit(list);
     };
     return (
-        <form className="form" onSubmit={submitHandler}>
+        <form className="form" onSubmit={submitHandler} autoComplete="off">
             <div className="input-group">
                 <p>
-                    <label>CURRENT SAVING($)</label><br/>
+                    <label>CURRENT SAVING($)</label>
                     <input type="text" onChange={currentSavingHandler} id="CS"/>
-                    <label>{cs}</label>
                 </p>
                 <p>
                     <label>YEARLY SAVING($)</label>
                     <input type="text" onChange={yearlySavingHandler} id="YS"/>
-                    <label>{ys}</label>
                 </p>
             </div>
             <div className="input-group">
                 <p>
                     <label>EXPECTED INTEREST(% PER YEAR)</label>
                     <input type="text" onChange={ROIHandler} id="ROI"/>
-                    <label>{roi}</label>
                 </p>
                 <p>
                     <label>INVESTMENT DURATION(YEARS)</label>
                     <input type="text" onChange={durationHandler} id="Time"/>
-                    <label>{time}</label>
                 </p>
             </div>
             <p className="actions">

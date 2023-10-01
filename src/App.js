@@ -9,7 +9,6 @@ function App() {
   const [data, setData] = useState([]);
   function dataUpdater(list){
     setData(list);
-    console.log(data);
   };
   return (
     <div>
@@ -17,8 +16,8 @@ function App() {
           <img src={logo} />
           <h1>Investment Calculator</h1>
         </header>
-        <Calculator onSubmit={dataUpdater}/>
-        <Report />
+        <Calculator onSubmit={dataUpdater} va="Hi"/>
+        <Report data={data} />
     </div>
   );
 }
