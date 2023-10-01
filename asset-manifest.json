@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/investmentTracker/static/css/main.7f5a1f92.css",
+    "main.js": "/investmentTracker/static/js/main.93f06294.js",
+    "static/js/703.dfc40556.chunk.js": "/investmentTracker/static/js/703.dfc40556.chunk.js",
+    "static/js/72.d960fb40.chunk.js": "/investmentTracker/static/js/72.d960fb40.chunk.js",
+    "static/js/787.5d172151.chunk.js": "/investmentTracker/static/js/787.5d172151.chunk.js",
+    "static/media/investment-calculator-logo.png": "/investmentTracker/static/media/investment-calculator-logo.c20da4d5b23f8d49ad00.png",
+    "index.html": "/investmentTracker/index.html",
+    "main.7f5a1f92.css.map": "/investmentTracker/static/css/main.7f5a1f92.css.map",
+    "main.93f06294.js.map": "/investmentTracker/static/js/main.93f06294.js.map",
+    "703.dfc40556.chunk.js.map": "/investmentTracker/static/js/703.dfc40556.chunk.js.map",
+    "72.d960fb40.chunk.js.map": "/investmentTracker/static/js/72.d960fb40.chunk.js.map",
+    "787.5d172151.chunk.js.map": "/investmentTracker/static/js/787.5d172151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f5a1f92.css",
+    "static/js/main.93f06294.js"
+  ]
+}
